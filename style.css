@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    min-height: 100vh;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+}
+
+.countdown-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: normal;
+    font-size: 4rem;
+   margin-top: 5rem;
+}
+
+.big-text{
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 1rem 2rem;
+}
+
+.countdown-el {
+text-align: center;
+}
+
+.countdown-el span{
+    font-size: 1.3rem;
+}
+
+.button {
+    background-color: #04AA6D; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 14px;
+    height: 26px;
+    margin: 4px 2px;
+    border-radius: 6px;
+    font-weight: 500;
+  }
+  
+  .button2 {background-color: #008CBA;} /* Blue */
+
+  form {
+    margin-top: 50px;
+  }
+
+  label {
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .dateStyle{
+    height: 24px;
+  }
